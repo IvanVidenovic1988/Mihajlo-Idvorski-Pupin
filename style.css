@@ -1,21 +1,28 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d0c0c;
+}
+
+.main{
   width: 1400px;
   margin: 20px auto;
   border-bottom: 1px solid blue;
+  border-top: 1px solid blue;
   background-color: #0d0c0c;
 }
 
 h1 {
   text-align: center;
   color: #0099cc;
-  border-bottom: 1px solid blue;
   padding-bottom: 5px;
   font-size: 80px;
   margin-bottom: 10px;
   font-family: fantasy;
   margin-top: 5px;
 }
-
+/* NAVBAR */
 #nav {
   display: inline-block;
   width: 400px;
@@ -40,7 +47,7 @@ h1 {
 
 img {
   width: 400px;
-  height: 550px;
+
 }
 
 #img {
@@ -64,3 +71,124 @@ img {
   top: 90px;
   text-align: center;
 }
+
+/* Life start */
+#content-life {
+  display: inline-block;
+  border-left: 1px solid blue;
+  float: right;
+  width: 999px;
+}
+
+#img-life img {
+  width: 480px;
+  height: auto;
+}
+
+#img-life {
+  float: left;
+  margin: 5px 5px 5px 5px;
+  padding-left: 5px;
+}
+
+#content-life p {
+  color: #0099cc;
+  font-size: 13px;
+  font-family: fantasy;
+}
+
+#pg-life {
+  position: relative;
+  bottom: 16px;
+  margin-left: 10px;
+}
+
+h2 {
+  color: #0099cc;
+  text-align: center;
+}
+/* Life end */
+
+
+/* Literary Work Start*/
+#content-literary-work {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 985px;
+  border-left: 1px solid blue;
+}
+
+#content-literary-work p {
+  color: #0099cc;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+#table-literary-work {
+  font-family: fantasy;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th {
+  padding: 18px;
+  border: 2px solid white;
+  color: #0099cc;
+}
+
+tr td {
+  border: 2px solid white;
+  color: #0099cc;
+  padding: 10px;
+}
+
+tr {
+  background-color: white;
+}
+
+#heading-literary-work {
+  background-color: #0099cc;
+}
+
+#heading-literary-work th {
+  color: white;
+}
+/* Literary Work End*/
+
+/* Pupin-Coils start */
+#content-pupin-coils {
+  display: inline-block;
+  border-left: 1px solid blue;
+  width: 985px;
+
+  margin-bottom: 10px;
+}
+
+#img-pupin-coils img {
+  width: 350px;
+  height: 550px;
+}
+
+#img-pupin-coils {
+  float: left;
+  margin: 5px 5px 5px 5px;
+  padding-left: 5px;
+}
+
+#content-pupin-coils p {
+  color: #0099cc;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+#pg-pupin-coils {
+  width: 450px;
+  height: 450px;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  text-align: center;
+}
+/* Pupin-Coils end */
